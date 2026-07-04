@@ -1,78 +1,9 @@
 {
-  "validEmployee": {
-    "firstName": "Furqan",
-    "middleName": "Mehdi",
-    "lastName": "Khan",
-    "employeeId": ""
+  "searchEmployee": {
+    "employeeName": "Furqan Khan"
   },
 
-  "validEmployeeWithCustomId": {
-    "firstName": "Ali",
-    "middleName": "Raza",
-    "lastName": "Ahmed",
-    "employeeId": "EMP10001"
-  },
-
-  "emptyFirstName": {
-    "firstName": "",
-    "middleName": "Mehdi",
-    "lastName": "Khan",
-    "employeeId": ""
-  },
-
-  "emptyLastName": {
-    "firstName": "Furqan",
-    "middleName": "Mehdi",
-    "lastName": "",
-    "employeeId": ""
-  },
-
-  "emptyFirstAndLastName": {
-    "firstName": "",
-    "middleName": "",
-    "lastName": "",
-    "employeeId": ""
-  },
-
-  "longName": {
-    "firstName": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "middleName": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "lastName": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "employeeId": ""
-  },
-
-  "specialCharacters": {
-    "firstName": "@#$%",
-    "middleName": "!*&^",
-    "lastName": "%$#@",
-    "employeeId": ""
-  },
-
-  "numericName": {
-    "firstName": "12345",
-    "middleName": "67890",
-    "lastName": "54321",
-    "employeeId": ""
-  },
-
-  "leadingSpaces": {
-    "firstName": "   Furqan",
-    "middleName": "   Mehdi",
-    "lastName": "   Khan",
-    "employeeId": ""
-  },
-
-  "trailingSpaces": {
-    "firstName": "Furqan   ",
-    "middleName": "Mehdi   ",
-    "lastName": "Khan   ",
-    "employeeId": ""
-  },
-
-  "duplicateEmployeeId": {
-    "firstName": "Ahmed",
-    "middleName": "Ali",
-    "lastName": "Khan",
-    "employeeId": "EMP10001"
+  "invalidSearch": {
+    "employeeName": "XYZABC123"
   }
 }
