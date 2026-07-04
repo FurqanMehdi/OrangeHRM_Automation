@@ -5,5 +5,9 @@
 
   "invalidSearch": {
     "employeeName": "XYZABC123"
-  }
+  },
+  "editEmployee": {
+    "searchName": "Furqan",
+    "newLastName": "Mehdi"
+}
 }
